@@ -1,21 +1,20 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ui;
 
 /**
  *
  * @author Nicholas Hacault
+ * @since 04-Feb-2021
  */
 public class MainUI extends javax.swing.JFrame {
+    
+    private MainUIController controller;
 
     /**
      * Creates new form MainUI
      */
     public MainUI() {
         initComponents();
+        controller = ;
     }
 
     /**
@@ -27,17 +26,512 @@ public class MainUI extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        pnlNumSel = new javax.swing.JPanel();
+        tglOne = new javax.swing.JToggleButton();
+        tglThree = new javax.swing.JToggleButton();
+        tglFour = new javax.swing.JToggleButton();
+        tglTwo = new javax.swing.JToggleButton();
+        tglFive = new javax.swing.JToggleButton();
+        tglSix = new javax.swing.JToggleButton();
+        tglSeven = new javax.swing.JToggleButton();
+        tglEight = new javax.swing.JToggleButton();
+        tglNine = new javax.swing.JToggleButton();
+        tglNote = new javax.swing.JToggleButton();
+        lblNum1 = new javax.swing.JLabel();
+        lblNum2 = new javax.swing.JLabel();
+        lblNum3 = new javax.swing.JLabel();
+        lblNum7 = new javax.swing.JLabel();
+        lblNum8 = new javax.swing.JLabel();
+        lblNum9 = new javax.swing.JLabel();
+        lblNum13 = new javax.swing.JLabel();
+        lblNum14 = new javax.swing.JLabel();
+        lblNum15 = new javax.swing.JLabel();
+        lblNum4 = new javax.swing.JLabel();
+        lblNum5 = new javax.swing.JLabel();
+        lblNum6 = new javax.swing.JLabel();
+        lblNum10 = new javax.swing.JLabel();
+        lblNum11 = new javax.swing.JLabel();
+        lblNum12 = new javax.swing.JLabel();
+        lblNum16 = new javax.swing.JLabel();
+        lblNum17 = new javax.swing.JLabel();
+        lblNum18 = new javax.swing.JLabel();
+        lblNum19 = new javax.swing.JLabel();
+        lblNum20 = new javax.swing.JLabel();
+        lblNum21 = new javax.swing.JLabel();
+        lblNum25 = new javax.swing.JLabel();
+        lblNum26 = new javax.swing.JLabel();
+        lblNum27 = new javax.swing.JLabel();
+        lblNum31 = new javax.swing.JLabel();
+        lblNum32 = new javax.swing.JLabel();
+        lblNum33 = new javax.swing.JLabel();
+        lblNum22 = new javax.swing.JLabel();
+        lblNum23 = new javax.swing.JLabel();
+        lblNum24 = new javax.swing.JLabel();
+        lblNum28 = new javax.swing.JLabel();
+        lblNum29 = new javax.swing.JLabel();
+        lblNum30 = new javax.swing.JLabel();
+        lblNum34 = new javax.swing.JLabel();
+        lblNum35 = new javax.swing.JLabel();
+        lblNum36 = new javax.swing.JLabel();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        pnlNumSel.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+
+        tglOne.setText("1");
+
+        tglThree.setText("3");
+
+        tglFour.setText("4");
+
+        tglTwo.setText("2");
+
+        tglFive.setText("5");
+
+        tglSix.setText("6");
+
+        tglSeven.setText("7");
+
+        tglEight.setText("8");
+
+        tglNine.setText("9");
+
+        tglNote.setText("N");
+
+        javax.swing.GroupLayout pnlNumSelLayout = new javax.swing.GroupLayout(pnlNumSel);
+        pnlNumSel.setLayout(pnlNumSelLayout);
+        pnlNumSelLayout.setHorizontalGroup(
+            pnlNumSelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlNumSelLayout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(pnlNumSelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, pnlNumSelLayout.createSequentialGroup()
+                        .addComponent(tglOne)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(tglTwo)
+                        .addGap(31, 31, 31))
+                    .addGroup(pnlNumSelLayout.createSequentialGroup()
+                        .addGroup(pnlNumSelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(tglThree)
+                            .addComponent(tglFive))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(pnlNumSelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(tglFour)
+                            .addComponent(tglSix))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(pnlNumSelLayout.createSequentialGroup()
+                        .addGroup(pnlNumSelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(pnlNumSelLayout.createSequentialGroup()
+                                .addComponent(tglSeven)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(tglEight))
+                            .addGroup(pnlNumSelLayout.createSequentialGroup()
+                                .addComponent(tglNine)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(tglNote, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 0, Short.MAX_VALUE))))
+        );
+        pnlNumSelLayout.setVerticalGroup(
+            pnlNumSelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(pnlNumSelLayout.createSequentialGroup()
+                .addGap(54, 54, 54)
+                .addGroup(pnlNumSelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tglOne)
+                    .addComponent(tglTwo))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlNumSelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tglThree)
+                    .addComponent(tglFour))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlNumSelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tglFive)
+                    .addComponent(tglSix))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlNumSelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tglSeven)
+                    .addComponent(tglEight))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(pnlNumSelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(tglNine)
+                    .addComponent(tglNote))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+        );
+
+        lblNum1.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum1.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum1.setName(""); // NOI18N
+        lblNum1.setOpaque(true);
+
+        lblNum2.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum2.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum2.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum2.setName(""); // NOI18N
+        lblNum2.setOpaque(true);
+
+        lblNum3.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum3.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum3.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum3.setName(""); // NOI18N
+        lblNum3.setOpaque(true);
+
+        lblNum7.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum7.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum7.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum7.setName(""); // NOI18N
+        lblNum7.setOpaque(true);
+
+        lblNum8.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum8.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum8.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum8.setName(""); // NOI18N
+        lblNum8.setOpaque(true);
+
+        lblNum9.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum9.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum9.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum9.setName(""); // NOI18N
+        lblNum9.setOpaque(true);
+
+        lblNum13.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum13.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum13.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum13.setName(""); // NOI18N
+        lblNum13.setOpaque(true);
+
+        lblNum14.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum14.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum14.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum14.setName(""); // NOI18N
+        lblNum14.setOpaque(true);
+
+        lblNum15.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum15.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum15.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum15.setName(""); // NOI18N
+        lblNum15.setOpaque(true);
+
+        lblNum4.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum4.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum4.setName(""); // NOI18N
+        lblNum4.setOpaque(true);
+
+        lblNum5.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum5.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum5.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum5.setName(""); // NOI18N
+        lblNum5.setOpaque(true);
+
+        lblNum6.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum6.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum6.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum6.setName(""); // NOI18N
+        lblNum6.setOpaque(true);
+
+        lblNum10.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum10.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum10.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum10.setName(""); // NOI18N
+        lblNum10.setOpaque(true);
+
+        lblNum11.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum11.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum11.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum11.setName(""); // NOI18N
+        lblNum11.setOpaque(true);
+
+        lblNum12.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum12.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum12.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum12.setName(""); // NOI18N
+        lblNum12.setOpaque(true);
+
+        lblNum16.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum16.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum16.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum16.setName(""); // NOI18N
+        lblNum16.setOpaque(true);
+
+        lblNum17.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum17.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum17.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum17.setName(""); // NOI18N
+        lblNum17.setOpaque(true);
+
+        lblNum18.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum18.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum18.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum18.setName(""); // NOI18N
+        lblNum18.setOpaque(true);
+
+        lblNum19.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum19.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum19.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum19.setName(""); // NOI18N
+        lblNum19.setOpaque(true);
+
+        lblNum20.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum20.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum20.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum20.setName(""); // NOI18N
+        lblNum20.setOpaque(true);
+
+        lblNum21.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum21.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum21.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum21.setName(""); // NOI18N
+        lblNum21.setOpaque(true);
+
+        lblNum25.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum25.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum25.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum25.setName(""); // NOI18N
+        lblNum25.setOpaque(true);
+
+        lblNum26.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum26.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum26.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum26.setName(""); // NOI18N
+        lblNum26.setOpaque(true);
+
+        lblNum27.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum27.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum27.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum27.setName(""); // NOI18N
+        lblNum27.setOpaque(true);
+
+        lblNum31.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum31.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum31.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum31.setName(""); // NOI18N
+        lblNum31.setOpaque(true);
+
+        lblNum32.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum32.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum32.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum32.setName(""); // NOI18N
+        lblNum32.setOpaque(true);
+
+        lblNum33.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum33.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum33.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum33.setName(""); // NOI18N
+        lblNum33.setOpaque(true);
+
+        lblNum22.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum22.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum22.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum22.setName(""); // NOI18N
+        lblNum22.setOpaque(true);
+
+        lblNum23.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum23.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum23.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum23.setName(""); // NOI18N
+        lblNum23.setOpaque(true);
+
+        lblNum24.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum24.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum24.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum24.setName(""); // NOI18N
+        lblNum24.setOpaque(true);
+
+        lblNum28.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum28.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum28.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum28.setName(""); // NOI18N
+        lblNum28.setOpaque(true);
+
+        lblNum29.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum29.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum29.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum29.setName(""); // NOI18N
+        lblNum29.setOpaque(true);
+
+        lblNum30.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum30.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum30.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum30.setName(""); // NOI18N
+        lblNum30.setOpaque(true);
+
+        lblNum34.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum34.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum34.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum34.setName(""); // NOI18N
+        lblNum34.setOpaque(true);
+
+        lblNum35.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum35.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum35.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum35.setName(""); // NOI18N
+        lblNum35.setOpaque(true);
+
+        lblNum36.setBackground(new java.awt.Color(255, 255, 255));
+        lblNum36.setForeground(new java.awt.Color(255, 51, 51));
+        lblNum36.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        lblNum36.setName(""); // NOI18N
+        lblNum36.setOpaque(true);
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(pnlNumSel, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 86, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(lblNum13, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblNum14, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblNum15, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(lblNum7, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblNum8, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblNum9, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(lblNum1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblNum2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblNum3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(lblNum31, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblNum32, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblNum33, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(lblNum25, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblNum26, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblNum27, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(layout.createSequentialGroup()
+                            .addComponent(lblNum19, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblNum20, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                            .addComponent(lblNum21, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(lblNum16, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblNum17, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblNum18, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(lblNum10, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblNum11, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblNum12, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(lblNum4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblNum5, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblNum6, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(lblNum34, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblNum35, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblNum36, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(lblNum28, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblNum29, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblNum30, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addComponent(lblNum22, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblNum23, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lblNum24, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(82, 82, 82))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(pnlNumSel, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addContainerGap(137, Short.MAX_VALUE)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNum4, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum5, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum6, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNum10, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum11, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum12, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNum16, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum17, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum18, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNum1, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum2, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum3, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNum7, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum8, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum9, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNum13, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum14, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum15, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNum22, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum23, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum24, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNum28, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum29, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum30, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNum34, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum35, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum36, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNum19, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum20, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum21, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNum25, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum26, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum27, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(lblNum31, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum32, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblNum33, javax.swing.GroupLayout.PREFERRED_SIZE, 50, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addGap(42, 42, 42))
         );
 
         pack();
@@ -79,5 +573,52 @@ public class MainUI extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel lblNum1;
+    private javax.swing.JLabel lblNum10;
+    private javax.swing.JLabel lblNum11;
+    private javax.swing.JLabel lblNum12;
+    private javax.swing.JLabel lblNum13;
+    private javax.swing.JLabel lblNum14;
+    private javax.swing.JLabel lblNum15;
+    private javax.swing.JLabel lblNum16;
+    private javax.swing.JLabel lblNum17;
+    private javax.swing.JLabel lblNum18;
+    private javax.swing.JLabel lblNum19;
+    private javax.swing.JLabel lblNum2;
+    private javax.swing.JLabel lblNum20;
+    private javax.swing.JLabel lblNum21;
+    private javax.swing.JLabel lblNum22;
+    private javax.swing.JLabel lblNum23;
+    private javax.swing.JLabel lblNum24;
+    private javax.swing.JLabel lblNum25;
+    private javax.swing.JLabel lblNum26;
+    private javax.swing.JLabel lblNum27;
+    private javax.swing.JLabel lblNum28;
+    private javax.swing.JLabel lblNum29;
+    private javax.swing.JLabel lblNum3;
+    private javax.swing.JLabel lblNum30;
+    private javax.swing.JLabel lblNum31;
+    private javax.swing.JLabel lblNum32;
+    private javax.swing.JLabel lblNum33;
+    private javax.swing.JLabel lblNum34;
+    private javax.swing.JLabel lblNum35;
+    private javax.swing.JLabel lblNum36;
+    private javax.swing.JLabel lblNum4;
+    private javax.swing.JLabel lblNum5;
+    private javax.swing.JLabel lblNum6;
+    private javax.swing.JLabel lblNum7;
+    private javax.swing.JLabel lblNum8;
+    private javax.swing.JLabel lblNum9;
+    private javax.swing.JPanel pnlNumSel;
+    private javax.swing.JToggleButton tglEight;
+    private javax.swing.JToggleButton tglFive;
+    private javax.swing.JToggleButton tglFour;
+    private javax.swing.JToggleButton tglNine;
+    private javax.swing.JToggleButton tglNote;
+    private javax.swing.JToggleButton tglOne;
+    private javax.swing.JToggleButton tglSeven;
+    private javax.swing.JToggleButton tglSix;
+    private javax.swing.JToggleButton tglThree;
+    private javax.swing.JToggleButton tglTwo;
     // End of variables declaration//GEN-END:variables
 }
